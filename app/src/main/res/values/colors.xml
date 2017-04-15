@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#FFFBEF</color>
+    <color name="title_text_color">#746D63</color>
+    <color name="prompt_text_color">#9E9A8E</color>
+    <color name="prompt_text_emphasize_color">#6D675B</color>
+    <color name="score_prompt_bg_color">#BEADA5</color>
+    <color name="score_prompt_text_color">#DCC8BD</color>
+    <color name="score_value_color">#FFFEFB</color>
+    <color name="rect_bg_color">#BCAEA5</color>
+    <color name="rect_empty_bg_color">#CFC3B5</color>
+    <color name="dialog_bg_color">#F0BCAEA5</color>
+    <color name="button_bg_color">#7E776D</color>
+    <color name="button_press_bg_color">#507E776D</color>
+    <color name="heart_bg_color">#70CFC3B5</color>
+
+    <color name="number_2_bg_color">#EFE6DD</color>
+    <color name="number_2_text_color">#7E776D</color>
+
+    <color name="number_4_bg_color">#EFE3CD</color>
+    <color name="number_4_text_color">#746D63</color>
+
+    <color name="number_8_bg_color">#F7B27B</color>
+    <color name="number_8_text_color">#FFFBF4</color>
+
+    <color name="number_16_bg_color">#F79663</color>
+    <color name="number_16_text_color">#F7F8FA</color>
+
+    <color name="number_32_bg_color">#F77C5A</color>
+    <color name="number_32_text_color">#FDF5F2</color>
+
+    <color name="number_64_bg_color">#F75D39</color>
+    <color name="number_64_text_color">#F8FBF0</color>
+
+    <color name="number_128_bg_color">#EECF74</color>
+    <color name="number_128_text_color">#FFF1EF</color>
+
+    <color name="number_256_bg_color">#EFCE63</color>
+    <color name="number_256_text_color">#FEF3F1</color>
+    <color name="number_256_bg_color_1">#EFCE63</color>
+    <color name="number_256_bg_color_2">#C0EFCE63</color>
+    <color name="number_256_bg_color_3">#A0EFCE63</color>
+
+    <color name="number_512_bg_color">#EFCE63</color>
+    <color name="number_512_text_color">#FEF3F1</color>
+    <color name="number_512_bg_color_1">#EFCE63</color>
+    <color name="number_512_bg_color_2">#C0EFCE63</color>
+    <color name="number_512_bg_color_3">#A0EFCE63</color>
+
+    <color name="number_1024_bg_color">#EFCE63</color>
+    <color name="number_1024_text_color">#FEF3F1</color>
+    <color name="number_1024_bg_color_1">#EFCE63</color>
+    <color name="number_1024_bg_color_2">#C0EFCE63</color>
+    <color name="number_1024_bg_color_3">#A0EFCE63</color>
+
+    <color name="number_2048_bg_color">#EFCE63</color>
+    <color name="number_2048_text_color">#FEF3F1</color>
+    <color name="number_2048_bg_color_1">#EFCE63</color>
+    <color name="number_2048_bg_color_2">#C0EFCE63</color>
+    <color name="number_2048_bg_color_3">#A0EFCE63</color>
+
+</resources>

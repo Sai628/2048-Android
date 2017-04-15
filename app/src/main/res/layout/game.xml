@@ -1,0 +1,146 @@
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/main_top_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/main_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:text="@string/app_name_prompt"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/main_best_ll"
+            android:layout_width="@dimen/view_score_width"
+            android:layout_height="@dimen/view_score_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/prompt_layout_round"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_best_prompt_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best"
+                android:textColor="@color/score_prompt_text_color"
+                android:textSize="@dimen/text_size_score_prompt"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/main_best_value_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:textColor="@color/score_value_color"
+                android:textSize="@dimen/text_size_score_value"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_score_ll"
+            android:layout_width="@dimen/view_score_width"
+            android:layout_height="@dimen/view_score_height"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/main_best_ll"
+            android:background="@drawable/prompt_layout_round"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_score_prompt_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textColor="@color/score_prompt_text_color"
+                android:textSize="@dimen/text_size_score_prompt"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/main_score_value_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero"
+                android:textColor="@color/score_value_color"
+                android:textSize="@dimen/text_size_score_value"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/main_add_score_prompt_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/main_score_ll"
+            android:layout_alignTop="@id/main_score_ll"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:textColor="@color/number_32_bg_color"
+            android:textSize="@dimen/text_size_addscore_prompt"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_prompt_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_prompt1_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_prompt1"
+            android:textColor="@color/prompt_text_color"
+            android:textSize="@dimen/text_size_prompt"/>
+
+        <TextView
+            android:id="@+id/main_prompt2_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_prompt2"
+            android:textColor="@color/prompt_text_emphasize_color"
+            android:textSize="@dimen/text_size_prompt"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <include
+        layout="@layout/tile_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        app:layout_heightPercent="90%w"
+        app:layout_widthPercent="90%w"/>
+
+    <TextView
+        android:id="@+id/main_play_prompt_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/play_prompt"
+        android:textColor="@color/prompt_text_color"
+        android:textSize="@dimen/text_size_small_prompt"
+        android:textStyle="italic"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

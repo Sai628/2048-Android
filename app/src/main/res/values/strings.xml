@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048</string>
+    <string name="app_name_prompt">2048</string>
+    <string name="game_prompt1">Join the numbers and get to the&#160;</string>
+    <string name="game_prompt2">2048 tile!</string>
+    <string name="play_prompt">HOW TO PLAY: Fling screen with your finger. When two tiles with the same number touch, they
+        merge into one!\n-By Sai628.</string>
+    <string name="lost_prompt">You Lost~ -_-#</string>
+    <string name="win_prompt">You Win!</string>
+    <string name="retry">RETRY</string>
+    <string name="restart">RESTART</string>
+    <string name="exit">EXIT</string>
+    <string name="score">SCORE</string>
+    <string name="best">BSET</string>
+    <string name="zero">0</string>
+
+</resources>
