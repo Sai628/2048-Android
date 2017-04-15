@@ -5,7 +5,7 @@
     <string name="app_name_prompt">2048</string>
     <string name="game_prompt1">Join the numbers and get to the&#160;</string>
     <string name="game_prompt2">2048 tile!</string>
-    <string name="play_prompt">HOW TO PLAY: Fling screen with your finger. When two tiles with the same number touch, they
+    <string name="play_prompt">HOW TO PLAY:\nFling screen with your finger. When two tiles with the same number touch, they
         merge into one!\n-By Sai628.</string>
     <string name="lost_prompt">You Lost~ -_-#</string>
     <string name="win_prompt">You Win!</string>

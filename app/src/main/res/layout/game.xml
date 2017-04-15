@@ -11,7 +11,7 @@
         android:id="@+id/main_top_rl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="32dp">
 
         <TextView
             android:id="@+id/main_title_textview"
@@ -101,7 +101,6 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
-        android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <TextView
@@ -127,7 +126,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         app:layout_heightPercent="90%w"
         app:layout_widthPercent="90%w"/>
 
@@ -141,6 +140,5 @@
         android:layout_marginRight="10dp"
         android:text="@string/play_prompt"
         android:textColor="@color/prompt_text_color"
-        android:textSize="@dimen/text_size_small_prompt"
-        android:textStyle="italic"/>
+        android:textSize="@dimen/text_size_small_prompt"/>
 </com.zhy.android.percent.support.PercentLinearLayout>
